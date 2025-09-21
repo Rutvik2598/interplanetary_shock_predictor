@@ -15,7 +15,7 @@ This project predicts the time difference (in hours) between **Coronal Mass Ejec
 3. **Modeling**  
    - Fit a **nonlinear power-law model** of the form:  
      \[
-     y = a \cdot x^b + c \cdot x^d
+     y = a \cdot x^b
      \]  
    - Split the dataset into **train and test sets**.  
    - Train the model on training data and evaluate on test data.  
